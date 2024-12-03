@@ -5,8 +5,10 @@ const numberTwo = prompt("Inserisci il secondo numero");
 
 if (numberOne > numberTwo) {
     console.log(numberOne)
-} else {(numberTwo > numberOne) 
+} else if (numberTwo > numberOne) {
     console.log(numberTwo)
+} else {
+    console.log("I numeri sono uguali")
 }
 
 
